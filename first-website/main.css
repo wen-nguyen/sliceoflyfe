@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(255, 207, 207);
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 20px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color:rgb(247, 152, 168);
+    background-color:rgb(246, 230, 255);
+    padding: 30px;
+    margin: 30px;
+    
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aquamarine; 
+}
+
+ol {
+    background-color: lavenderblush;
+}
+
+.introduction {
+    background-color: cornflowerblue;
+    border: 6px dotted rgb(255, 255, 255);
+}
