@@ -1,0 +1,19 @@
+body {
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #ffdfca;
+}
+
+.title {
+    font-size:80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.date {
+font-size: 25px;
+}
+
+.subject {
+    font-size :20px;
+}
