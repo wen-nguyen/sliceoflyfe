@@ -50,12 +50,14 @@ body {
     text-align: center;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
 }
 
 .ramen {
     position: relative;
-    width: fit-content;
-    min-height: fit-content;
+    width: 350px;
+    min-height: 400px;
 }
 
 .header3 {
@@ -63,6 +65,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     font-weight:700;
+    font-style: oblique;
+    text-align: center;
     margin: 0;
     max-width: 200px;
     top: 0;
@@ -76,13 +80,35 @@ body {
 
 .header4 {
     color:#ee5f00;
+    background-color: #ffdd00;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 5px;
+    width:fit-content;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    line
+    font-size: 12px;
+    line-height: 15px;
 
 }
 
+.list {
+    color:#ee5f00;
+    background-color: #ffdd00;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 0;
+    width: 150px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
 .grid-container {
+    position: relative;
+    left: 50px;
     display: grid;
     justify-content: center;
     grid-template-columns: auto auto auto;
@@ -93,10 +119,13 @@ body {
   .grid-item {
     margin: 0;
     padding: 20px;
+    max-width: 400px;
+    max-height: 400px;
     text-align: center;
   }
 
   .samyang {
     grid-column: 2/3;
+    padding: 20px;
     margin: 0 auto;
   }
