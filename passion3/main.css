@@ -1,3 +1,7 @@
+html {
+     cursor: url("pointer.png"), pointer;
+}
+
 body {
     margin: 20px;
 }
@@ -123,3 +127,5 @@ body {
   #samyang {
     padding-bottom: 800px;
   }
+
+ 
