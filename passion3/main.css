@@ -1,5 +1,30 @@
 body {
-    margin: 50px;
+    margin: 20px;
+}
+
+.header {
+    position: fixed;
+    bottom: 10%;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 170px;
+    font-style: oblique;
+    line-height: 160px;
+    color: rgb(255, 205, 139);
+    z-index: 5;
+}
+
+.header2 {
+    position: fixed;
+    right: 45px;
+    bottom: 7%;
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: 170px;
+    line-height: 160px;
+    color: rgb(255, 205, 139);
+    z-index: 5;
 }
 
 #gradient {
