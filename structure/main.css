@@ -1,0 +1,74 @@
+body { 
+    box-sizing: border-box;
+    background-color: #ffd4a3;
+    margin: 30px;
+    cursor: url(), auto';
+}
+
+#rug {
+    display: flex;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+}
+
+#dresser {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    top: 43%;
+    left: 55%;
+    z-index: -9;
+    }
+
+.move {
+
+}
+
+#ghost {
+    position: absolute;
+    left: 1050px;
+    top: 500px;
+    width: 60px;
+    z-index: -10;
+}
+
+#plant {
+    position: absolute;
+    right: 800px;
+    top: 391px;
+    width: 320px;
+}
+
+#lamp {
+    position: absolute;
+    right: 32%; 
+    top: 20%;
+    width: 15%;
+    z-index: -10;
+}
+
+#vase {
+    position: absolute;
+    left: 550px;
+    top: 400px;
+    width: 15%;
+    
+}
+
+#trash {
+    position: absolute;
+    right: 500px;
+    top: 430px;
+    width: 250px;
+}
+
+#bear {
+    position: absolute;
+    left: 680px;
+    top: 380px;
+    width: 15%;
+    z-index: -2;
+}
