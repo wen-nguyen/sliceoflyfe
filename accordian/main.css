@@ -49,7 +49,7 @@ body {
     width: 400px;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1400px) {
 
     body {
         background-color: #2C2C54;
@@ -81,7 +81,7 @@ body {
 
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
 
     body {
         background-color: #f5306b;
