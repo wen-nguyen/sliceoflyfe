@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(170, 217, 237);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: -1;
+    justify-content:space-around;
+}
+
+.container2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 140px;
+    left: 0;
+    z-index: -1;
+    justify-content:space-around;
+}
+
+.container3 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 180px;
+    left: 0;
+    z-index: -1;
+    justify-content:space-around;
+}
+
+.drag {
+    background-color: rgb(22, 33, 105);
+    color: aliceblue;
+    width:fit-content;
+    height:fit-content;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: grab;
+}
+
+.drag2 {
+    width: 200px;
+    height: 200px;
+}
+
+.magnet1{
+    display: flex;
+    position: fixed;
+    bottom: 100px; 
+    left: 150px;
+}
+
+.magnet2{
+    display: flex;
+    position: fixed;
+    bottom: 180px; 
+    left: 500px;
+}
+
+.magnet3{
+    display: flex;
+    position: fixed;
+    bottom: 200px; 
+    left: 1200px;
+    
+}
+
+.magnet4{
+    display: flex;
+    position: fixed;
+    bottom: 100px; 
+    left: 700px;
+    
+}
+
+.drag.grow {
+animation-play-state: running;
+animation-name: grow;
+
+}
+
+@keyframes grow {
+
+    0% {
+        
+    }
+
+    100% {
+        font-size: 300px;
+    }
+}
