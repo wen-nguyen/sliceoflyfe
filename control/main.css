@@ -19,7 +19,6 @@ body {
 
 .container2 {
     width: 100vw;
-    height: 100vh;
     display: flex;
     position: fixed;
     top: 140px;
@@ -30,7 +29,6 @@ body {
 
 .container3 {
     width: 100vw;
-    height: 100vh;
     display: flex;
     position: fixed;
     top: 180px;
