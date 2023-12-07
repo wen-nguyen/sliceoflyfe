@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color:#F4F1DE;
+    /* #E07A5F
+    #3D405B
+    #62AB37
+    #3A86FF */
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    /* z-index: -1; */
+}
+
+
+.title {
+    color:#3D405B ;
+    font-size: 100px;
+    font-family: 'Bungee Hairline', sans-serif;
+    padding: 0;
+}
+
+.pose1 {
+    position: fixed;
+    right: 50vw;
+}
+
+.pose2 {
+    position: fixed;
+    top: 45px;
+    left: 50vw;
+}
+
+.block {
+    background-color: #3d405b;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    z-index: -2;
+    opacity: 0;
+    transition: opacity 6s ease-out;
+}
+
+.block:hover {
+    opacity: 100;
+    transition: opacity 0s;
+}
+
+
